@@ -6,7 +6,8 @@ public class game{
         System.out.println("<----WELCOME TO THIS GAME---->");
         System.out.print("guess a two digit number : ");
         int n;
-        int rand=54;
+        Random r=new Random();
+        int rand=r.nextInt()%90+10;
         Scanner sc=new Scanner(System.in);
 
         n=sc.nextInt();
