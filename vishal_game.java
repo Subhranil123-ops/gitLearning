@@ -1,6 +1,7 @@
 package gitLearning;
+
 import java.util.*;
-public class game{
+public class vishal_game{
 
     public static void main(String args[]){
         System.out.println("<----WELCOME TO THIS GAME---->");
